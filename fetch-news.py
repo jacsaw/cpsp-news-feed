@@ -8,6 +8,7 @@ result to output/feed.json for TRMNL (or anything else) to consume.
 import json
 import re
 from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 import feedparser
@@ -22,6 +23,7 @@ USER_AGENT = (
 
 FEEDS = [
     "https://povertycenter.columbia.edu/news/rss.xml",
+    "https://robinhood.org/reports/feed/",
     # Add more working feed URLs here as you confirm them.
 ]
 
@@ -61,12 +63,15 @@ def fetch_all():
             parsed = feedparser.parse(content)
             source_name = parsed.feed.get("title", url)
             for entry in parsed.entries:
+                link = entry.get("link", "")
+                if "poverty" not in link.lower():
+                    continue
                 title = entry.get("title", "")
                 summary = entry.get("summary", "")
                 items.append({
                     "title": title,
                     "summary": re.sub("<[^<]+?>", "", summary)[:200],
-                    "link": entry.get("link", ""),
+                    "link": link,
                     "source": source_name,
                     "published": entry.get("published", ""),
                 })
@@ -74,8 +79,16 @@ def fetch_all():
     return items
 
 
+def published_key(item):
+    try:
+        return parsedate_to_datetime(item["published"])
+    except (TypeError, ValueError):
+        return datetime.min.replace(tzinfo=timezone.utc)
+
+
 def main():
     items = fetch_all()
+    items.sort(key=published_key, reverse=True)
     items = items[:MAX_ITEMS]
 
     output = {
