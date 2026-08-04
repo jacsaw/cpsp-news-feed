@@ -2,8 +2,11 @@ name: Fetch News Feed
 
 on:
   schedule:
-    # Runs every 6 hours. Adjust to match how often your sources actually update.
-    - cron: "0 */6 * * *"
+    # 6:00am, 12:00pm, and 4:30pm ET. GitHub Actions cron is always UTC and
+    # doesn't shift for DST, so these times are pinned to EDT (UTC-4); they'll
+    # run an hour later in local time during EST (roughly Nov-Mar).
+    - cron: "0 10,16 * * *"
+    - cron: "30 20 * * *"
   workflow_dispatch: {}  # lets you trigger it manually from the Actions tab
 
 permissions:
