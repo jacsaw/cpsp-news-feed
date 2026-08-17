@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-17T10:33:19.335214+00:00",
-  "count": 7,
+  "generated_at": "2026-08-17T16:28:40.232312+00:00",
+  "count": 8,
   "stories": [
     {
       "title": "Spotlight on: Rent Stabilization in New York City \u2014 Who Does it Serve, How Does it Improve Affordability, and Where Does it Fall Short?",
@@ -24,6 +24,13 @@
       "published": "Wed, 27 May 2026 07:00:00 +0000"
     },
     {
+      "title": "In the News: 2.2 million New Yorkers are living in poverty",
+      "summary": "In the News: 2.2 million New Yorkers are living in poverty\nsh3946\nWed, 03/25/2026 - 14:57\n",
+      "link": "https://povertycenter.columbia.edu/news/22-million-new-yorkers-are-living-poverty",
+      "source": "",
+      "published": "Wed, 25 Mar 2026 18:57:44 +0000"
+    },
+    {
       "title": "Annual Report: The State of Poverty and Disadvantage in New York City Vol. 8",
       "summary": "",
       "link": "https://robinhood.org/reports/poverty-tracker-annual-report-vol-8/",
@@ -31,25 +38,25 @@
       "published": "Wed, 11 Mar 2026 16:00:27 +0000"
     },
     {
+      "title": "Welcoming Rebecca Ortiz to the research team!",
+      "summary": "Welcoming Rebecca Ortiz to the research team!\nsh3946\nSun, 03/08/2026 - 00:39\n",
+      "link": "https://povertycenter.columbia.edu/news/welcoming-rebecca-ortiz",
+      "source": "",
+      "published": "Sun, 08 Mar 2026 05:39:16 +0000"
+    },
+    {
+      "title": "In the News: Measuring childcare hardship",
+      "summary": "In the News: Measuring childcare hardship \nsh3946\nWed, 02/04/2026 - 12:17\n",
+      "link": "https://povertycenter.columbia.edu/news/measuring-childcare-hardship-poverty-tracker",
+      "source": "",
+      "published": "Wed, 04 Feb 2026 17:17:10 +0000"
+    },
+    {
       "title": "Childcare Hardship in NYC: Preliminary Findings from the Poverty Tracker",
       "summary": "",
       "link": "https://robinhood.org/reports/poverty-tracker-childcare-hardship-memo/",
       "source": "Executive summary Archive - Robin Hood",
       "published": "Wed, 14 Jan 2026 19:00:15 +0000"
-    },
-    {
-      "title": "Data Snapshot: Exiting and Falling Back into Poverty",
-      "summary": "",
-      "link": "https://robinhood.org/reports/data-snapshot-exiting-and-falling-back-into-poverty/",
-      "source": "Executive summary Archive - Robin Hood",
-      "published": "Tue, 13 Jan 2026 19:53:01 +0000"
-    },
-    {
-      "title": "Partnership Against Poverty: An Agenda for Collaboration with the Mamdani Administration",
-      "summary": "",
-      "link": "https://robinhood.org/reports/partnership-against-poverty-mayoral-agenda/",
-      "source": "Executive summary Archive - Robin Hood",
-      "published": "Fri, 19 Dec 2025 18:25:31 +0000"
     }
   ]
 }
