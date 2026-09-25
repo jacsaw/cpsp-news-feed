@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T23:16:16.361465+00:00",
+  "generated_at": "2026-09-25T19:53:01.410659+00:00",
   "count": 8,
   "stories": [
     {
@@ -45,18 +45,18 @@
       "published": "Wed, 27 May 2026 07:00:00 +0000"
     },
     {
-      "title": "In the News: 2.2 million New Yorkers are living in poverty",
-      "summary": "In the News: 2.2 million New Yorkers are living in poverty\nsh3946\nWed, 03/25/2026 - 14:57\n",
-      "link": "https://povertycenter.columbia.edu/news/22-million-new-yorkers-are-living-poverty",
-      "source": "",
-      "published": "Wed, 25 Mar 2026 18:57:44 +0000"
-    },
-    {
       "title": "Annual Report: The State of Poverty and Disadvantage in New York City Vol. 8",
       "summary": "",
       "link": "https://robinhood.org/reports/poverty-tracker-annual-report-vol-8/",
       "source": "Executive summary Archive - Robin Hood",
       "published": "Wed, 11 Mar 2026 16:00:27 +0000"
+    },
+    {
+      "title": "Childcare Hardship in NYC: Preliminary Findings from the Poverty Tracker",
+      "summary": "",
+      "link": "https://robinhood.org/reports/poverty-tracker-childcare-hardship-memo/",
+      "source": "Executive summary Archive - Robin Hood",
+      "published": "Wed, 14 Jan 2026 19:00:15 +0000"
     }
   ]
 }
