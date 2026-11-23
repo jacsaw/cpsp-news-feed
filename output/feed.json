@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-11-14T23:59:45.219251+00:00",
-  "count": 7,
+  "generated_at": "2026-11-23T21:55:14.112484+00:00",
+  "count": 8,
   "stories": [
+    {
+      "title": "Welcoming Christina Michael to the research team!",
+      "summary": "Welcoming Christina Michael to the research team! \nsh3946\nThu, 11/19/2026 - 12:45\n",
+      "link": "https://povertycenter.columbia.edu/news/welcoming-christina-michael-research-team",
+      "source": "",
+      "published": "Thu, 19 Nov 2026 17:45:18 +0000"
+    },
+    {
+      "title": "Spotlight on: Food Assistance and the Poverty Shortfall in New York City",
+      "summary": "",
+      "link": "https://robinhood.org/reports/poverty-tracker-spotlight-on-food-assistance-and-the-poverty-shortfall/",
+      "source": "Executive summary Archive - Robin Hood",
+      "published": "Mon, 16 Nov 2026 05:01:32 +0000"
+    },
     {
       "title": "Special Series: Hidden in Plain Sight \u2013 How Housing is Linked to Healthcare Access among \u00a0New Yorkers Since the Pandemic",
       "summary": "",
@@ -43,13 +57,6 @@
       "link": "https://robinhood.org/reports/poverty-tracker-ec-universal-child-care-as-anti-poverty-policy/",
       "source": "Executive summary Archive - Robin Hood",
       "published": "Wed, 27 May 2026 07:00:00 +0000"
-    },
-    {
-      "title": "Annual Report: The State of Poverty and Disadvantage in New York City Vol. 8",
-      "summary": "",
-      "link": "https://robinhood.org/reports/poverty-tracker-annual-report-vol-8/",
-      "source": "Executive summary Archive - Robin Hood",
-      "published": "Wed, 11 Mar 2026 16:00:27 +0000"
     }
   ]
 }
